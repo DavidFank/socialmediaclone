@@ -35,6 +35,8 @@ gem 'gravatarify', '~> 3.0.0'
 
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
 
+gem 'public_activity', '~> 1.5'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

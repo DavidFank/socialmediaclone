@@ -13,8 +13,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><%= link_to "News Feed", "#" %></li>
-        <li><%= link_to "Peeps", "#" %></li>
+        <li><%= link_to "News Feed", newsfeed_path %></li>
+        <li><%= link_to "Peeps", users_path %></li>
         <% if current_user %>
         <li><%= gravatar_tag current_user.email, size: 20 %></li>
          <li class="dropdown">

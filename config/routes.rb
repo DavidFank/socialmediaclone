@@ -8,6 +8,10 @@ Rails.application.routes.draw do
       put :accept
     end
   end
+  resources :posts, only: [:create, :edit, :update, :destroy]
+
+  get '/newsfeed' => 'activities#index', as: 'newsfeed'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
